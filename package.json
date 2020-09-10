@@ -1,0 +1,27 @@
+{
+  "name": "nccucscplab",
+  "version": "1.0.0",
+  "description": "Build lab slides as GitHub Page from bunch of Markdown files.",
+  "dependencies": {},
+  "devDependencies": {
+    "@marp-team/marp-cli": "^0.21.0",
+    "cpy-cli": "^3.1.1",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "build": "rimraf dist && npm run -s deck",
+    "deck": "marp -I ./slides -o ./dist && cpy \"assets/**/*\" dist/assets",
+    "now-build": "npm run -s deck",
+    "start": "marp -ps ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josix/NCCUCSCPLab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josix/NCCUCSCPLab/issues"
+  },
+  "homepage": "https://github.com/josix/NCCUCSCPLab#readme"
+}
