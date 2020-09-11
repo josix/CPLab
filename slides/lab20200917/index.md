@@ -9,22 +9,7 @@ paginate: true
 ## 2020-09-17
 ---
 
-# TA Info: 📭 E-mail
--  王韋勝 109753110@nccu.edu.tw
-<!-- Add your emails -->
-
----
-
-# TA info: 📃office hour
-- LocationL CLIP Lab (大仁樓 402：大仁樓頂樓上樓後左轉到底第一間) 
-- Office Hour: Two Options
-  - Thu. 13-15@ CLIP Lab: 王韋勝, ???
-  - ???
-
----
-
-# Rules
-## Assignments 
+# Rules - Assignments 
   - DO NOT CHEAT!
   - Both cheater and his partner will be punished.
   - Lock your assignment directory!
@@ -33,8 +18,7 @@ paginate: true
 
 
 --- 
-# Rules
-## Email Convention 
+# Rules - Mailing Convention 
   - Asking questions of TAs via e-mail
   - The subject of mail shall begin with **<span style="color:red;">[109cp1]</span>** and make it clear.
   - `Hi, my code doesn’t work` -----> (X) wrong subject.
@@ -44,8 +28,7 @@ paginate: true
     - Remember to append your **studentID** and your **name** to the mail.
 
 --- 
-# Rules
-## Asking a Question in a Smart Way
+# Rules - Asking a Question in a Smart Way
 ### Before You Ask
 - Try to find an answer by searching the archives of the FB Group or class resources.
 - Try to find an answer by searching the Web.
