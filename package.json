@@ -6,11 +6,13 @@
   "devDependencies": {
     "@marp-team/marp-cli": "^0.21.0",
     "cpy-cli": "^3.1.1",
+    "markdown-styles": "^3.1.10",
     "rimraf": "^3.0.2"
   },
   "scripts": {
-    "build": "rimraf dist && npm run -s deck",
-    "deck": "marp -I ./slides -o ./dist && cpy \"assets/**/*\" dist/assets",
+    "build": "rimraf dist && npm run -s deck && npm run -s pdf",
+    "deck": "marp -I ./slides -o ./dist && cpy \"assets/**/*\" dist/assets && generate-md --layout github --input ./index.md --output ./dist",
+    "pdf": "marp -I ./slides -o ./dist --pdf",
     "now-build": "npm run -s deck",
     "start": "marp -ps ."
   },
