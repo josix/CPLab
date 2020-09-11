@@ -10,8 +10,9 @@ For more marp usage, you could follow [this gist](https://gist.github.com/yhatt/
 
 The contribution will follow the [GitHub Flow](https://guides.github.com/introduction/flow/):
 1. Before adding your slides, you could fork this repo or creating another branch
-2. Place your markdwon file to be rendered in the folder `slides`
-3. Create a PR and describe what you have added
+2. Place your markdown file to be rendered in the folder `slides`
+3. Add the new link to the latest slide in README.md
+4. Create a PR and describe what you have added
 
 
 ## Report Issues
