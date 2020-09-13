@@ -196,4 +196,4 @@ img[alt~="center"] {
   margin: 0 auto;
 }
 </style>
-![VIM h:300 center](./vim.png)
+![VIM h:300 center](https://i.imgur.com/C0121Me.png)
