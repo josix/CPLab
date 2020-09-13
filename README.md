@@ -1,7 +1,8 @@
 # CP Lab
 
 ## Hello, Let's Talk about What You'll Learn
-Welcome to the CP1 lab
+Welcome to the CP1 lab🎉
+
 **Objective** In this practical class, TAs will help you recap and understand the materials teaching in the class. The hand-on lab will be held once a week so that every student could have a chance to practice and ask questions just the day after the class.
 
 **Prerequisites** None.
