@@ -82,11 +82,118 @@ paginate: true
 ..   =>  parent directory
 
 **Absolute path**: Start with "/"
+
 - /usr/share/bin
 - /home1/student/stud107/s107xx
 
 **Relative path**: Path relate to current directory.
-- If current dir is /usr
-test/bin =>   /usr/test/bin
-li/public =>  /usr/li/public
 
+- If current dir is /usr
+  test/bin =>   /usr/test/bin
+  li/public =>  /usr/li/public
+
+---
+
+# Basic UNIX Command
+
+- `ls` list files in current directory.
+
+```bash
+ls
+ls -l  # list files details in current directory.
+ls -a  # list all files (include hidden files).
+ls -la # Both of listing all files with details
+```
+
+---
+# Basic UNIX Command
+
+## How to create/delete/copy files or directories?
+
+```bash
+mkdir test 
+# Create a directory named "test" in current directory
+cp fileX dirY/dirZ
+# Copy fileX from current directory to ./dirY/dirZ
+cp fileX dirY/fileZ
+# Copy fileX from current directory to dirY and rename to fileZ.
+cp -r dirX dirY
+# Copy dirX from current directory to dirY.
+# If dirY doesn't exist, dirY is a copy of dirX.
+# If dirY is a directory then there will be a copy of dirX under dirY.
+```
+
+---
+
+# Basic UNIX Command
+
+## How to create/delete/copy files or directories?
+
+```bash
+mv fileA dirB
+# Move fileA to dirB.
+mv dirA dirB
+# If dirB exist, then move dirA under dirB.
+# If dirB does not exist, dirA is rename to dirB.
+rm fileA
+# Remove file fileA (Only for file)
+rm -r dirA
+# Remove directory dirA and all its contents
+```
+
+---
+
+# Basic UNIX Command - Your Round
+1. Please create a directory named “1091cp1”
+  `mkdir 1091cp1`
+2. Enter directory 1091cp1
+  `cd 1091cp1`
+3. Please create a directory named `abc`
+  `mkdir abc`
+4. Please rename `abc` to `xyz`
+  `mv abc xyz`
+5. Copy `xyz` and rename it as `jqk`
+  `cp -r xyz cdf`
+7. Please delete directory `xyz` and `jqk`
+  `rm -r xyz jqk`
+
+---
+
+# Basic UNIX Command - Recap
+
+- Use `mkdir` to create a directory
+- Use `mv` to move a directory/file or rename a directory/file
+- Use `cp` to copy a file and `cp -r` to copy a directory
+- Use `rm` for removing file and `rm -r` for removing directory
+
+---
+
+# Basic UNIX Command - Others
+
+- The path used on cp, mv, rm, mkdir can be absolute path or relative path.
+- Use `pwd` to see what the current directory is.
+- Use `whoami` to see your account's name.
+- Use `logout` to logout the system. (or you can press Ctrl+D either)
+- Type `Ctrl+L` to clean your screen
+- Remember, whenever you have problems using Unix, try "man" command.
+
+```bash
+man ls
+man cp
+```
+
+> man stands for manual.
+
+---
+
+# Basic VIM
+
+- Vim is a text editor that you can write texts, codes just like `記事本`
+- To use it, you just need to type `vim` with a filename folowing it, e.g. `vim test.txt`
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+![VIM h:300 center](./vim.png)
