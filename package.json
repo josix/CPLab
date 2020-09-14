@@ -9,7 +9,7 @@
     "rimraf": "^3.0.2"
   },
   "scripts": {
-    "build": "rimraf dist && cpy README.md dist && npm run -s deck && npm run -s pdf",
+    "build": "rimraf dist && cpy README.md _config.yml dist && npm run -s deck && npm run -s pdf",
     "deck": "marp -I ./slides -o ./dist && cpy \"slides/assets/**/*\" dist/assets",
     "pdf": "marp --allow-local-files -I ./slides -o ./dist --pdf",
     "now-build": "npm run -s deck",
