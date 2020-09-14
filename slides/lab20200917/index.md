@@ -149,17 +149,17 @@ rm -r dirA
 ---
 
 # Basic UNIX Command - Your Round
-1. Please create a directory named `1091cp1`
+1. Please create a directory named "1091cp1"
   `mkdir 1091cp1`
-2. Enter directory `1091cp1`
+2. Enter directory "1091cp1"
   `cd 1091cp1`
-3. Please create a directory named `abc`
+3. Please create a directory named "abc"
   `mkdir abc`
-4. Please rename `abc` to `xyz`
+4. Please rename "abc" to "xyz"
   `mv abc xyz`
-5. Copy `xyz` and rename it as `jqk`
+5. Copy "xyz" and rename it as "jqk"
   `cp -r xyz cdf`
-7. Please delete directory `xyz` and `jqk`
+7. Please delete directory "xyz" and "jqk"
   `rm -r xyz jqk`
 
 ---
@@ -264,7 +264,7 @@ img[alt~="upper-right"] {
 
 # Basic Vim - Your Round
 
-1. Please create a file named `abc.txt`
+1. Please create a file named "abc.txt"
   `vim abc.txt`
 
 2. Please insert “hello world” at line 3
