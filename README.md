@@ -32,3 +32,6 @@ In this class, we will discuss about:
 - [lab20200917](lab20200917/index.html) [(pdf)](lab20200917/index.pdf)
 
 ### Code Snippets
+
+### Others
+- [NCCU OJ](https://oj.mozix.ebg.tw/)

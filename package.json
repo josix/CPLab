@@ -10,8 +10,8 @@
   },
   "scripts": {
     "build": "rimraf dist && cpy README.md dist && npm run -s deck && npm run -s pdf",
-    "deck": "marp -I ./slides -o ./dist && cpy \"assets/**/*\" dist/assets",
-    "pdf": "marp -I ./slides -o ./dist --pdf",
+    "deck": "marp -I ./slides -o ./dist && cpy \"slides/assets/**/*\" dist/assets",
+    "pdf": "marp --allow-local-files -I ./slides -o ./dist --pdf",
     "now-build": "npm run -s deck",
     "start": "marp -ps ."
   },
