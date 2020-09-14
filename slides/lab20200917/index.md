@@ -52,7 +52,7 @@ img[alt~="center"] {
 ---
 # Basic UNIX Command
 
-0. Download [pietty](http://ntu.csie.org/~piaip/pietty/) **(Windows Only)**
+0. Download [pietty](https://sites.google.com/view/pietty-project) **(Windows Only)**
 1. Connect to `ghost.cs.nccu.edu.tw`
    **Windows**: Use Telnet first time, and use SSH afterwards.
    `telnet s109XX@ghost.cs.nccu.edu.tw`
