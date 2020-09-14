@@ -149,9 +149,9 @@ rm -r dirA
 ---
 
 # Basic UNIX Command - Your Round
-1. Please create a directory named “1091cp1”
+1. Please create a directory named `1091cp1`
   `mkdir 1091cp1`
-2. Enter directory 1091cp1
+2. Enter directory `1091cp1`
   `cd 1091cp1`
 3. Please create a directory named `abc`
   `mkdir abc`
@@ -256,7 +256,7 @@ img[alt~="upper-right"] {
 
 - Use `:q!` to quit Vim forcibly no matter if you have written your files.
   > If you quit without saving your will get a warning
-- Use `:x` or :wq`` to write your file and quit Vim with only one command.
+- Use `:x` or `:wq` to write your file and quit Vim with only one command.
 - Use `:!` to commaand shell command in VI, e.g. `:!ls`
 - Use `:xxx` to move cursor to the specific line.
   > xxx is the line number
