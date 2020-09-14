@@ -347,7 +347,8 @@ drwxr-xr-x 3 g9803 grad98  512 2010-09-15 11:41 991cp1/
 ---
 # Assignment 0
 
-1. Go to [NCCU OJ Website](https://oj.mozix.ebg.tw/)
+1. Go to [NCCU OJ website](https://oj.mozix.ebg.tw/) and sign up
+> (Please set your **school ID** as username, e.g. 109701234)
 2. Click `Contests` on the menu.
 3. Click the assignment you want to submit (In this week, the assignment is `Assignment 0`)
 4. Click `Problems` in the right panel
