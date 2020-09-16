@@ -158,7 +158,7 @@ rm -r dirA
 4. Please rename "abc" to "xyz"
   `mv abc xyz`
 5. Copy "xyz" and rename it as "jqk"
-  `cp -r xyz cdf`
+  `cp -r xyz jqk`
 7. Please delete directory "xyz" and "jqk"
   `rm -r xyz jqk`
 
