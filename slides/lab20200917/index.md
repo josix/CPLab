@@ -52,7 +52,7 @@ img[alt~="center"] {
 ---
 # Basic UNIX Command
 
-0. Download [pietty](http://ntu.csie.org/~piaip/pietty/) **(Windows Only)**
+0. Download [pietty](https://sites.google.com/view/pietty-project) **(Windows Only)**
 1. Connect to `ghost.cs.nccu.edu.tw`
    **Windows**: Use Telnet first time, and use SSH afterwards.
    `telnet s109XX@ghost.cs.nccu.edu.tw`
@@ -149,17 +149,17 @@ rm -r dirA
 ---
 
 # Basic UNIX Command - Your Round
-1. Please create a directory named “1091cp1”
+1. Please create a directory named "1091cp1"
   `mkdir 1091cp1`
-2. Enter directory 1091cp1
+2. Enter directory "1091cp1"
   `cd 1091cp1`
-3. Please create a directory named `abc`
+3. Please create a directory named "abc"
   `mkdir abc`
-4. Please rename `abc` to `xyz`
+4. Please rename "abc" to "xyz"
   `mv abc xyz`
-5. Copy `xyz` and rename it as `jqk`
-  `cp -r xyz cdf`
-7. Please delete directory `xyz` and `jqk`
+5. Copy "xyz" and rename it as "jqk"
+  `cp -r xyz jqk`
+7. Please delete directory "xyz" and "jqk"
   `rm -r xyz jqk`
 
 ---
@@ -256,7 +256,7 @@ img[alt~="upper-right"] {
 
 - Use `:q!` to quit Vim forcibly no matter if you have written your files.
   > If you quit without saving your will get a warning
-- Use `:x` or :wq`` to write your file and quit Vim with only one command.
+- Use `:x` or `:wq` to write your file and quit Vim with only one command.
 - Use `:!` to commaand shell command in VI, e.g. `:!ls`
 - Use `:xxx` to move cursor to the specific line.
   > xxx is the line number
@@ -264,7 +264,7 @@ img[alt~="upper-right"] {
 
 # Basic Vim - Your Round
 
-1. Please create a file named `abc.txt`
+1. Please create a file named "abc.txt"
   `vim abc.txt`
 
 2. Please insert “hello world” at line 3
@@ -347,7 +347,8 @@ drwxr-xr-x 3 g9803 grad98  512 2010-09-15 11:41 991cp1/
 ---
 # Assignment 0
 
-1. Go to [NCCU OJ Website](https://oj.mozix.ebg.tw/)
+1. Go to [NCCU OJ website](https://oj.mozix.ebg.tw/) and sign up
+> (Please set your **school ID** as username, e.g. 109701234)
 2. Click `Contests` on the menu.
 3. Click the assignment you want to submit (In this week, the assignment is `Assignment 0`)
 4. Click `Problems` in the right panel
