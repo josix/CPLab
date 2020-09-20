@@ -37,13 +37,6 @@ cd ../test
 ---
 
 # Unix Command Review
-`elm` -> an screen-oriented mailer program
-![elm h:500](../assets/elm.png)
-[more source](https://www.computerhope.com/unix/uelm.htm)
-
----
-
-# Unix Command Review
 `ls` -> list files in current directory
 ```bash
 ls
@@ -98,6 +91,13 @@ How to create/delete/copy files or directory?
     man cp
     ```
 - `man` stands for manual.
+
+---
+
+# Unix Command Review
+`elm` -> an screen-oriented mailer program
+![elm h:500](../assets/elm.png)
+[more source](https://www.computerhope.com/unix/uelm.htm)
 
 ---
 
