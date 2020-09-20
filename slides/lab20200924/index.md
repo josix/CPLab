@@ -95,9 +95,10 @@ How to create/delete/copy files or directory?
 ---
 
 # Unix Command Review
-`elm` -> an screen-oriented mailer program
-![elm h:500](../assets/elm.png)
-[more source](https://www.computerhope.com/unix/uelm.htm)
+Start Ghost account elm
+- Type `/usr/local/bin/elm`
+- Enter `y` 3 times and `q` 1 time
+![elm h:400](../assets/elm.png)
 
 ---
 
