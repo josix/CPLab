@@ -252,6 +252,27 @@ Type `./a.out` to run the program.
 
 ---
 
+# How to Copy Your C Script?
+- [NCCUCS Web Mail](https://mail.cs.nccu.edu.tw)
+    - Login
+    ![webmail h:500](../assets/webmail_login.png)
+
+---
+
+# How to Copy Your C Script?
+- NCCUCS Web Mail
+    - WebDisk
+    ![webmail h:500](../assets/webmail.png)
+
+---
+
+# How to Copy Your C Script?
+- NCCUCS Web Mail
+    - Ghost
+    ![webmail h:500](../assets/web_ghost.png)
+
+---
+
 # Data Type
 ![data type h:550](../assets/datatype.png)
 
