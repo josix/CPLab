@@ -223,7 +223,7 @@ Type `./a.out` to run the program.
 ---
 
 # How to Copy Your C Script?
-- `ftp s109XX@ghost.cs.nccu.edu.tw` **(command line)**
+- `ftp ghost.cs.nccu.edu.tw` **(command line)**
     - `ls` -> list files or directories on server
     - `pwd` -> see what the current directory is on server
     - `cd` -> change directory on server
@@ -305,16 +305,16 @@ Type `./a.out` to run the program.
 - Print float or double number
     - Number of digits
         ```c
-        double pi = 3.1415926;
-        printf("%d\n", pi);
-        // 3
-
+        double pi = 3.14159;
         printf("%f\n", pi);
-        // 3.1415926
+        // 3.14159
 
         // What if I want to print "3.14"?
         printf("%.2f\n", pi);
         // 3.14
+        
+        printf("%d\n", pi);
+        // 1293080650
         ```
 
 ---
