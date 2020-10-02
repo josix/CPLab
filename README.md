@@ -7,8 +7,7 @@ Welcome to the CP1 lab🎉
 
 **Prerequisites** None.
 
-<details>
-  <summary>In this class, we will discuss about:</summary>
+In this class, we will discuss about:
 
 - Managing your server account
 - Introduction to UNIX Command
@@ -25,7 +24,6 @@ Welcome to the CP1 lab🎉
   - C Files
   - C Preprocessors
 - Introduction to GDB
-</details>
 
 
 ## 如何提問
