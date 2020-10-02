@@ -7,7 +7,8 @@ Welcome to the CP1 lab🎉
 
 **Prerequisites** None.
 
-In this class, we will discuss about:
+<details>
+  <summary>In this class, we will discuss about:</summary>
 
 - Managing your server account
 - Introduction to UNIX Command
@@ -24,6 +25,8 @@ In this class, we will discuss about:
   - C Files
   - C Preprocessors
 - Introduction to GDB
+</details>
+
 
 ## 如何提問
 你可以到 [這裏](https://github.com/josix/NCCUCSCPLab/issues/new?assignees=&labels=question&template=ask-question.md&title=%5BQuestion%5D) 提出你對課程相關的疑問，請盡量回答表格內提出的問題，那將可以加速我們的回應速度，也是一個好的提問習慣。
