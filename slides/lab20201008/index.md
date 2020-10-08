@@ -287,9 +287,6 @@ darkknive@1091cp1:~$
 
 ---
 
-
-
----
 <!-- 
   backgroundImage: "linear-gradient(to bottom, #67b8e3, #0288d1)"
 -->
