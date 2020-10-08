@@ -29,7 +29,7 @@ img[alt~="center"] {
 # decision-making in C
 
 ## Boolean data type 
- - Two states ( ```true``` or ```false``` )
+ - Two states ( true or false )
  - Logical operators - AND( ```&&``` ), OR( ```||``` ), NOT( ```!``` )
 
 ---
@@ -38,15 +38,15 @@ img[alt~="center"] {
 ## examples:
 
 ```c
-if(true && false){  //  returns false
+if((1+1 == 2) && (1+1 == 3)){  //  returns false
     //  This part will NOT be executed.
 }
 
-if(true || false){  //  returns true
+if((1+1 == 2) || (1+1 == 3)){  //  returns true
     //  This part will be executed.
 }
 
-if(!false){ //  returns true
+if(!(1+1 == 3)){ //  returns true
     //  This part will be executed.
 }
 ```
