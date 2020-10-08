@@ -279,6 +279,7 @@ darkknive@1091cp1:~$
 
 # Notes:
  - Format your code!
+ - control your input smartly with scanf().
  - Every argument has its reason of existence.
  - Think as a program.
 
