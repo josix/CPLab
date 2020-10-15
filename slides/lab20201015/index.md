@@ -99,7 +99,7 @@ img{
 
 - ~~a, b, c, d...~~
 
-|            |      |            |      |
+|    全名     | 縮寫 |    全名    | 縮寫 |
 |------------|------|------------|------|
 | Answer     | ans  | String     | str  |
 | Array      | arr  | Pointer    | ptr  |
@@ -117,21 +117,29 @@ img{
 # Scope
 ## 變數生命週期
 
-- 一個變數只會存在於離他最接近的{}中
-- {}與{}中若有相同的變數，則取用最接近的變數
+- 全域變數 Global Variable
+- 區域變數 Local Variable
 
 ---
 
 # Scope
 ## 變數生命週期
 ```c
+    int x = 0;
+
+    int add(int a){
+        return ++a;
+    }
+
     int main(void){
         int i = 456;
         for(int i=0;i<100;i++){
             for(int j=0;j<100;j++){
                 int i = j+1;
+                printf("%d\n", add(i));
             }
         }
+        printf("%d\n", add(x));
         return 0;
     }
 ```
