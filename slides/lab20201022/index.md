@@ -97,12 +97,12 @@ array[8] = 0;
 # Input and Output
 - How to assign and output values to an array.
 ```c
-int score[5];
-for(int i = 0; i < 5; i++){
-    scanf("%d", &score[i]);
+int score[5];
+for(int i = 0; i < 5; i++){
+    scanf("%d", &score[i]);
 }
 for(int i = 0; i < 5; i++){
-    printf("%d\n", score[i]);
+    printf("%d\n", score[i]);
 }
 
 ```
@@ -112,8 +112,8 @@ for(int i = 0; i < 5; i++){
 - `datatype name[ rowSize ][ columnSize ];`
 ## Example
 ```c
-float matrix[5][3];
-int map[4][5];
+float matrix[5][3];
+int map[4][5];
 ```
 ---
 # 2D Array - Initialization
@@ -146,16 +146,16 @@ Take `int array[2][3] = {1, 2, 3, 4, 5, 6}` as an example:
 - How to assign and output values to an array.
 ```c
 int map[4][5];
-for( int i = 0; i < 4; i++) {
-    for( int j = 0; j < 5; j++) {
-        scanf(“%d”, &map[i][j]);
-    }
+for( int i = 0; i < 4; i++) {
+    for( int j = 0; j < 5; j++) {
+        scanf(“%d”, &map[i][j]);
+    }
 }
 
-for( int i = 0; i < 4; i++) {
-    for( j = 0; j < 5; j++) {
-        printf(“%d\n”, map[i][j]);
-    }
+for( int i = 0; i < 4; i++) {
+    for( j = 0; j < 5; j++) {
+        printf(“%d\n”, map[i][j]);
+    }
 }
 
 ```
