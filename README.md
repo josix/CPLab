@@ -33,7 +33,8 @@ In this class, we will discuss about:
 - [lab20200917](lab20200917/index.html) [(pdf)](lab20200917/index.pdf)
 - [lab20200924](lab20200924/index.html) [(pdf)](lab20200924/index.pdf)
 - [lab20201008](lab20201008/index.html) [(pdf)](lab20201008/index.pdf)
-- [lab20201008](lab20201015/index.html) [(pdf)](lab20201015/index.pdf)
+- [lab20201015](lab20201015/index.html) [(pdf)](lab20201015/index.pdf)
+- [lab20201022](lab20201022/index.html) [(pdf)](lab20201022/index.pdf)
 
 ### Code Snippets
 
