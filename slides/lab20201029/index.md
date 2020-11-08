@@ -89,12 +89,12 @@ Chang, Chi-Hung
     ```c
     int SIZE = 5;
     int array[SIZE] = {2, 3, 5, 1, 4};
-    for(int i = 0 ; i < SIZE ; i++){
-        for(int j = i + 1 ; j < SIZE ; j++){
-            if(array[i] > array[j]){
-                int temp = array[i];
-                array[i] = array[j];
-                array[j] = temp;
+    for(int i = 0 ; i < SIZE - 1 ; i++){
+        for(int j = 0 ; j < SIZE - i - 1 ; j++){
+            if(array[j] > array[j+1]){
+                int temp = array[j];
+                array[j] = array[j+1];
+                array[j+1] = temp;
             }
         }
     }
@@ -146,7 +146,7 @@ Chang, Chi-Hung
 - Search in Array
     - **Binary search**
         ```c
-        int SIZE = 5;
+        int SIZE = 8;
         int array[SIZE] = {1, 2, 3, 4, 5, 6, 7, 8};
         int target = 7;
         printf("%d\n", binarySearch(array, target, 0, SIZE-1);  // 6
