@@ -177,12 +177,12 @@ int solve(int n){
 - 給定兩個數字n, k，求n^k
 ```c
 int mypow(int n, int k){
-    if(m == k)
+    if(k == 1)
         return n;
-    else if(m%2 == 0)
-        return mypow((n*n), m/2);
+    else if(k%2 == 0)
+        return mypow((n*n), k/2);
     else
-        return (mypow((n*n), m/2)*n);
+        return (mypow((n*n), k/2)*n);
 }
 ```
 
