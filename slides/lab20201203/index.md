@@ -12,10 +12,10 @@ paginate: true
 ---
 
 # Outline
-- [Input/Output](#Input/Output)
-- [Struct](#Struct)
-- [Exercise 9](#Exercise-9)
-- [Assign9 Hint](#Assign9-Hint)
+- Input/Output
+- Struct
+- Exercise 9
+- Assign9 Hint
 
 ---
 
@@ -63,7 +63,7 @@ paginate: true
 # Input/Output
 - Output format - integer (cont.)
     ```bash
-        123***
+         123***
         -123***
     123     ***
     -123    ***

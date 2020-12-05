@@ -38,7 +38,7 @@ In this class, we will discuss about:
 - [lab20201029](lab20201029/index.html) [(pdf)](lab20201029/index.pdf)
 - [lab20201119](lab20201119/index.html) [(pdf)](lab20201119/index.pdf)
 - [lab20201126](lab20201126/index.html) [(pdf)](lab20201126/index.pdf)
-- - [lab20201203](lab20201203/index.html) [(pdf)](lab20201203/index.pdf)
+- [lab20201203](lab20201203/index.html) [(pdf)](lab20201203/index.pdf)
 
 ### Code Snippets
 
