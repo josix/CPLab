@@ -303,8 +303,13 @@ int main(void){
 ![vim h:600 center](../assets/Linked_List_30.png)
 
 ---
-# Exercise 10
-我還沒出
+# [Exercise 10](https://oj.mozix.ebg.tw/contest)
+## Pokemon GO
+- Input:
+    輸入數組神奇寶貝資料，每組資料依序為
+    序號、神奇寶貝名、攻擊力、防禦力、血量
+- Output:
+    請輸出排序過後的神奇寶貝資料，詳細格式請見 OJ
 
 ---
 
