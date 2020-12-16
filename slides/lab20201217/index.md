@@ -1,5 +1,5 @@
 ---
-marp: false
+marp: true
 title: Computer Programming 1 Lab - Lecture 12
 date: 2020-12-17
 paginate: true 
