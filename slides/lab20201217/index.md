@@ -1,5 +1,5 @@
 ---
-marp: true
+marp: false
 title: Computer Programming 1 Lab - Lecture 12
 date: 2020-12-17
 paginate: true 
@@ -44,24 +44,29 @@ img[alt~="center"] {
     margin-left: auto;
     margin-right: auto;
 }
+td{
+    width:50px;
+    height:50px;
+}
 </style>
 
-<div class="center">  
+<div class="center">
+
+ - Only when both bits are 1 will 
 
 |   | 0 | 1 |
 |:-:|:-:|:-:|
 | 0 | 0 | 0 |
 | 1 | 0 | 1 |
 
-</div>  
-
+</div>
 
 ---
 
 # bitwise operations
 ## operator OR( `|` )
 
-<div style="margin-left:20%;margin-right:20%">
+<div class="center">
 
 |   | 0 | 1 |
 |:-:|:-:|:-:|
@@ -75,27 +80,27 @@ img[alt~="center"] {
 # bitwise operations
 ## operator NOT( `~` )
 
-<center>
+<div class="center">
 
 |   | 0 | 1 |
 |:-:|:-:|:-:|
 | ~ | 1 | 0 |
 
-</center>
+</div>
 
 ---
 
 # bitwise operations
 ## operator XOR( `^` )
 
-<center>
+<div class="center">
 
 |   | 0 | 1 |
 |:-:|:-:|:-:|
 | 0 | 0 | 1 |
 | 1 | 1 | 0 |
 
-</center>
+</div>
 
 ---
 # bitwise operations
