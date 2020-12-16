@@ -46,14 +46,14 @@ img[alt~="center"] {
 }
 </style>
 
-<p class=center>
+<div class="center">  
 
 |   | 0 | 1 |
 |:-:|:-:|:-:|
 | 0 | 0 | 0 |
 | 1 | 0 | 1 |
 
-</p>
+</div>  
 
 
 ---
@@ -61,14 +61,14 @@ img[alt~="center"] {
 # bitwise operations
 ## operator OR( `|` )
 
-<center>
+<div style="margin-left:20%;margin-right:20%">
 
 |   | 0 | 1 |
 |:-:|:-:|:-:|
 | 0 | 0 | 1 |
 | 1 | 1 | 1 |
 
-</center>
+</div>
 
 ---
 
