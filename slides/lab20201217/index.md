@@ -45,14 +45,16 @@ img[alt~="center"] {
     margin-right: auto;
 }
 td{
-    width:50px;
-    height:50px;
+    width:100px;
+    height:100px;
 }
 </style>
 
+ - Only when both bits are 1 will result in 1.
+
 <div class="center">
 
- - Only when both bits are 1 will 
+
 
 |   | 0 | 1 |
 |:-:|:-:|:-:|
@@ -63,8 +65,29 @@ td{
 
 ---
 
+### example:
+
+```c
+
+
+
+```
+### results:
+
+```bash
+darkknive@1091cp1:~$ ./a.out B
+The letter is B.
+The letter is C.
+None of them above.
+darkknive@1091cp1:~$
+```
+
+---
+
 # bitwise operations
 ## operator OR( `|` )
+
+ - Either one of two bits is 1 will result in 1.
 
 <div class="center">
 
@@ -80,6 +103,8 @@ td{
 # bitwise operations
 ## operator NOT( `~` )
 
+ - Not operation will negate the bit
+
 <div class="center">
 
 |   | 0 | 1 |
@@ -93,6 +118,8 @@ td{
 # bitwise operations
 ## operator XOR( `^` )
 
+ - Only when one of the bits is 1 will result in 1.
+
 <div class="center">
 
 |   | 0 | 1 |
@@ -103,6 +130,7 @@ td{
 </div>
 
 ---
+
 # bitwise operations
 ## examples:
 
