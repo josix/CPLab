@@ -39,14 +39,22 @@ img[alt~="center"] {
 # bitwise operations
 ## operator AND( `&` )
 
-<center>
+<style>
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+
+<p class=center>
 
 |   | 0 | 1 |
 |:-:|:-:|:-:|
 | 0 | 0 | 0 |
 | 1 | 0 | 1 |
 
-</center>
+</p>
+
 
 ---
 
