@@ -26,6 +26,38 @@ img[alt~="center"] {
 # bitwise operations
 
 ---
+
+# bitwise operations
+
+## 0x (zero X) prefix
+ - A prefix to indicate the number is in hexadecimal
+ - Often used to show memory address.
+
+---
+
+### example:
+
+```c
+int a = 7414;
+if(a == 0x1CF6){    // 7414 in hex
+    printf("True\n");
+}
+else{
+    printf("False\n");
+}
+return 0;
+```
+### results:
+
+```bash
+darkknive@1091cp1:~$ gcc ./main.c 
+darkknive@1091cp1:~$ ./a.out 
+True
+darkknive@1091cp1:~$ 
+```
+
+---
+
 # bitwise operations
 
 ## operators
@@ -33,7 +65,7 @@ img[alt~="center"] {
  - OR( `|` )
  - NOT( `~` )
  - XOR( `^` )
-
+ - shift operators( `<<`, `>>`)
 ---
 
 # bitwise operations
@@ -68,22 +100,32 @@ td{
 ### example:
 
 ```c
-
-
-
+int a = 0x0000000F;
+a &= 0x0000000A;    //  a = a & 0x0000000A
+printf("%d\n", a);
 ```
 ### results:
 
 ```bash
-darkknive@1091cp1:~$ ./a.out B
-The letter is B.
-The letter is C.
-None of them above.
+darkknive@1091cp1:~$ gcc ./main.c
+darkknive@1091cp1:~$ ./a.out
+10
 darkknive@1091cp1:~$
 ```
 
 ---
 
+<div class="center">
+
+|       |   |   |   |   |
+|  :-:  |:-:|:-:|:-:|:-:|
+|   F   | 1 | 1 | 1 | 1 |
+|   A   | 1 | 0 | 1 | 0 |
+|results| 1 | 0 | 1 | 0 |
+
+</div>
+
+---
 # bitwise operations
 ## operator OR( `|` )
 
@@ -95,6 +137,36 @@ darkknive@1091cp1:~$
 |:-:|:-:|:-:|
 | 0 | 0 | 1 |
 | 1 | 1 | 1 |
+
+</div>
+
+---
+
+### example:
+
+```c
+int a = 0x00000006;
+a |= 0x0000000A;    //  a = a | 0x0000000A;
+printf("%d\n", a);
+```
+### results:
+
+```bash
+darkknive@1091cp1:~$ gcc ./main.c
+darkknive@1091cp1:~$ ./a.out
+14
+darkknive@1091cp1:~$
+```
+
+---
+
+<div class="center">
+
+|       |   |   |   |   |
+|  :-:  |:-:|:-:|:-:|:-:|
+|   6   | 0 | 1 | 1 | 0 |
+|   A   | 1 | 0 | 1 | 0 |
+|results| 1 | 1 | 1 | 0 |
 
 </div>
 
@@ -115,6 +187,40 @@ darkknive@1091cp1:~$
 
 ---
 
+### example:
+
+```c
+int a = 0xFFFFFFFA;
+a = ~a;
+printf("%d\n", a);
+```
+### results:
+
+```bash
+darkknive@1091cp1:~$ gcc ./main.c
+darkknive@1091cp1:~$ ./a.out
+5
+darkknive@1091cp1:~$
+```
+
+---
+
+<div class="center">
+
+|       |   |   |   |   |
+|  :-:  |:-:|:-:|:-:|:-:|
+|   F   | 1 | 1 | 1 | 1 |
+|results| 0 | 0 | 0 | 0 |
+
+|       |   |   |   |   |
+|  :-:  |:-:|:-:|:-:|:-:|
+|   A   | 1 | 0 | 1 | 0 |
+|results| 0 | 1 | 0 | 1 |
+
+</div>
+
+---
+
 # bitwise operations
 ## operator XOR( `^` )
 
@@ -126,6 +232,82 @@ darkknive@1091cp1:~$
 |:-:|:-:|:-:|
 | 0 | 0 | 1 |
 | 1 | 1 | 0 |
+
+</div>
+
+---
+
+### example:
+
+```c
+int a = 0x00000006;
+a ^= 0x0000000A;    //  a = a ^ 0x0000000A;
+printf("%d\n", a);
+```
+### results:
+
+```bash
+darkknive@1091cp1:~$ gcc ./main.c
+darkknive@1091cp1:~$ ./a.out
+12
+darkknive@1091cp1:~$
+```
+
+---
+
+<div class="center">
+
+|       |   |   |   |   |
+|  :-:  |:-:|:-:|:-:|:-:|
+|   6   | 0 | 1 | 1 | 0 |
+|   A   | 1 | 0 | 1 | 0 |
+|results| 1 | 1 | 0 | 0 |
+
+</div>
+
+---
+
+# bitwise operations
+## operator shift( `<<`, `>>` )
+
+ - the least-significant bit is lost
+ - 0 is inserted on the other end
+
+---
+
+### example:
+
+```c
+int a = 0x000000F1;
+a >>= 2;    //  a = a >> 2;
+printf("%d\n", a);
+a <<= 2;    //  a = a << 2;
+printf("%d\n", a);
+```
+
+### results:
+
+```bash
+darkknive@1091cp1:~$ gcc ./main.c
+darkknive@1091cp1:~$ ./a.out
+60
+240
+darkknive@1091cp1:~$
+```
+
+---
+
+<div class="center">
+
+|       |   |   |   |   |   |   |   |   |
+|  :-:  |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| 0xF1  | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 1 |
+| >>=2  | 0 | 0 | 1 | 1 | 1 | 1 | 0 | 0 |
+
+|       |   |   |   |   |   |   |   |   |
+|  :-:  |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| 0x3C  | 0 | 0 | 1 | 1 | 1 | 1 | 0 | 0 |
+| <<=2  | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 0 |
 
 </div>
 
