@@ -354,7 +354,8 @@ printf("%d\n", a);
 ```
 
 ---
-# [Exercise10](https://oj.mozix.ebg.tw/contest/14/problem/1091CP1%20Exercise3)
+
+# [Exercise11](https://oj.mozix.ebg.tw/contest/53/problem/1091CP1%20Exercise11)
 
 ---
 
