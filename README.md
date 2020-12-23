@@ -41,6 +41,7 @@ In this class, we will discuss about:
 - [lab20201203](lab20201203/index.html) [(pdf)](lab20201203/index.pdf)
 - [lab20201210](lab20201210/index.html) [(pdf)](lab20201210/index.pdf)
 - [lab20201217](lab20201217/index.html) [(pdf)](lab20201217/index.pdf)
+- [lab20201224](lab20201224/index.html) [(pdf)](lab20201224/index.pdf)
 
 ### Code Snippets
 
