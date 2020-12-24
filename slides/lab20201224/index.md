@@ -129,20 +129,13 @@ $1 \to 4 \to 7 \to 6 \to 3 \to 13 \to 14 \to 10 \to 8$
 ---
 
 # Exercise 12
-Give you a binary tree that contains numbers of nodes. The value of each node is a unique positive integer. Please print out the tree in **postorder**.
+Give you the elements of a binary tree. The first element is the root node. When getting a new node (number), you should add the node into the binary tree. Please create the binary tree and print out the tree in **postorder**.
 - Input
-    ```
-    8 left 3
-    8 right 10
-    3 left 1
-    3 right 6
-    6 left 4
-    6 right 7
-    10 right 14
-    14 left 13
+    ```bash
+    8 3 10 1 6 14 4 7 13
     ```
 - Output
-    ```
+    ```bash
     1 4 7 6 3 13 14 10 8
     ```
 
